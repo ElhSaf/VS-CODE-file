@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML Demo</title>    <!-- skapar titel och den huvudrubrik -->
+    </head>
+<body>
+    <h1>Testar HTML!</h1>    <!--underrubrik och raden under skriver ut massa text man vill ha -->
+    <p>SOS21GB</p>
+</body>
+
+<!--hämatar en bild via en länk -->
+<img src = "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png"
+ alt="Pic could not laod..."
+ width = "500"
+ height = "300"
+>
+<!--öppnar guthub i en ny flik-->
+<a href = "https://github.com" target"_Blank">Github Start</a> 
+
+ <!--gör så att bilden laddas ner när man trycker på länken, man kan även skicka in en länk till en fil som ska laddas ner -->
+<a href = ""downlaods ="./Homer_Simpson_2006.png">Homer</a>   
+
+<!-- Button skapar knappar på hemsidan-->
+
+<button>
+    <!--enkel knapp-->
+Press here
+</button>
+
+<!--man måste skapa ny button tag för varje knapp-->
+<button>
+    <disabled> Press here </disabled> <!--för avktiver en knapp-->
+</button>
+
+<!-- knapp för att nollställa ett formulär-->
+<button name = "btnReset" type = "Reset"> Reset </button>
+<!-- första tag < > där skriver man funktioner för knapen där i emmlan första och sista button det som ska stå på skärmen-->
+ 
+<h2>Länkar - Special</h2>
+ <a href="http://github.com" target="_blank">
+     <button name = "btnGithub"> Github </button>
+     </a>
+
+     <!-- bild för länk till Github-->
+ <a href="https://github.com" target="_blank">
+     <img src = "./Homer_Simpson_2006.png" alt ="Homer"
+     width="200"
+     heigth = "300"/>
+ </a>
+
+ <!--för skapa statiska lsitor-->
+ <!--numrerade listor-->
+ <h2>Listor</h2>
+  <ol>list item 1</ol>
+      <li>List item 2</li>    
+  </ol>
+
+  <ul>  <!--onumrerade listor -->
+      <li>List item 1</li>
+      <li>List item 2</li>
+</ul>
+
+<!--för att skapa listor med länk-->
+<ol>
+ <li><a href = "https://github.com" target="_blank">Github</a></li>
+ <li>List item 2</li>
+
+</ol>
+
+<!--skapa tabeller-->  
+
+<h2>Tabeller-</h2>
+<table>      <!--skapar tabell tag-->
+<tr>         <!-- skapar tabelle rad -->
+    <th colspan="2">Runrik 1</th>   <!-- DEn säger hur många kolumner rubriken ska sträcka sig öcer -->
+<th>Rubrik 1</th>  <!--skapae rubrik rutan-->
+<th>Rubrik 2</th>
+</tr>
+ 
+<!--RAWSPAN - ksn msn bestämma hur myckat data ska sprida sig i höjden i en tabell-->
+<!-- COLUMNSPAN - man kan bestämma hur mcyket innehållet ska srpida sig på bredden-->
+<tr>    
+    <th rowspan="2"></th>  <!--man kan bestämma hur mycket det ska sprida sig på höjden -->
+    <th colspan="2"></th>    <!--visar hur många kollumner den ska sprifda sig över i det hrä fallet gäller vilkoren för data innehållet.-->
+<td>Data 1</td>   <!--skriver in data i raderna-->
+<td>DAta 2</td>
+</tr>
+
+</table>
+
+<!--sifforna efter H styr storleken på text utskriften, desto högre siffra desto mindre text-->
+<h1>Textformatering</h1>
+<h2>Textformatering</h2>
+<h3>Textformatering</h3>
+
+</html>    
