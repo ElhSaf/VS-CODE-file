@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/Logga.png");
+    
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color:rgb(197, 195, 192);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.nav-area li a:hover{
+    background:rgb(197, 195, 192);
+    color: #333;
+}
+
+
+.startPage-text{
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.startPage-text h1{
+    text-align: center;
+    color: rgb(197, 195, 192);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.startPage-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.startPage-text a:hover{
+    background: rgb(197, 195, 192);
+    color: #333;
+}
+
+
+/* FÖr REGISTRAtTION PAGE*/
+
+.regPAge{
+    color:rgb(197, 195, 192);
+    text-decoration: none;
+    padding: 70px 40px;
+    font-family: poppins;
+    font-size: 35px;
+}
+
+.Login1 {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: auto;
+    top: auto;
+    color: #000;
+    font-size: 25px;
+    font-weight: normal;
+  }
+
+  .Login1 a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #000;
+}
+
+  .Login1 a:hover{
+    background: rgb(90, 86, 81);
+    color: #000;
+
+  }
+

@@ -1,0 +1,21 @@
+/* alla element*/
+h1{ 
+color: red;
+}
+
+/*alla med samma id*/
+#title {
+    color: blue;
+
+}
+
+/*alla med samma klassnamn*/
+.title {
+    color : green
+}
+
+.colorChange{
+    color:yellow
+}
+
+
